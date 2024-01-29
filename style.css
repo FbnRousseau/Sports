@@ -1,0 +1,130 @@
+body{
+    background-color: white;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+h2{
+    font-size: 40px;
+}
+a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-size: 16px;
+}
+p, h1, h2{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+.Header{
+    background-color: #191919;
+}
+.Header-Navbar-box{
+    display: flex;
+}
+.Header-Navbar-boxes{
+    padding: 5px;
+}
+
+.Header-Navbar-item-login{
+    position: absolute;
+    right: 0px;
+}
+.Header-Title{
+    height: 95vh;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;    
+}
+.Header-Title >*{
+    text-align: center;
+}
+.Header-Title > h1{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+/*Jumbotron*/
+.Huge-jumbotron{
+    background-color: rgba(33,71,102);
+    width: 100%;
+    padding: 50px 0px;
+}
+.Jumbotron{
+    max-width: 75%;
+    margin: 0px auto;
+}
+.Jumbotron-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25px 25px 25px;
+}
+.Jumbotron-box > img{
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.Library{
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #191919ee;
+}
+.Library-box{
+    max-width: 75%;
+    margin: auto;
+}
+.Library-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+.Library-title > h2{
+    text-align: center;
+    padding: 25px 0px;
+}
+.Footer{
+    background-color: #191919ee;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.Footer-box > div > p{
+    margin: 0;
+    padding-right: 10px;
+}
+
+/*****************************************   MEDIA QUERY *****************************************/
+@media(min-width: 1200px){
+}   
+@media(min-width:992px) and (max-width: 1200px){  
+}  
+@media(min-width:768px) and (max-width: 992px){
+} 
+@media(min-width:576px) and (max-width: 768px){
+    .Beaufortain1, .Sancy1, .Beaufortain2, .Tournette1{
+        display: none;
+    }
+}   
+@media(max-width:576px){
+    a{
+        font-size: 11px;
+    }
+    .Beaufortain1, .Sancy1, .Beaufortain2, .Tournette1{
+        display: none;
+    }
+}    
